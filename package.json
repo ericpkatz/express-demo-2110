@@ -4,12 +4,14 @@
   "description": "",
   "main": "pluck.js",
   "dependencies": {
+    "express": "^4.17.1",
     "nodemon": "^2.0.14"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pluck": "nodemon pluck"
+    "pluck": "nodemon pluck",
+    "start": "nodemon server"
   },
   "repository": {
     "type": "git",
